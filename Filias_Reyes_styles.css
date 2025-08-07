@@ -4,60 +4,6 @@ body {
     margin: 0;
 }
 
-/* Barra de Navegación*/
-
-.navbar {
-    background-color: rgb(58, 58, 58);
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-.perfil a {
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    gap: 50px;
-    font-weight: bold;
-}
-
-.nav-links li {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.nav-links li a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.sesion {
-    background-color: #b4ffcb5a;
-    padding: 10px 15px;
-    border-radius: 5px;
-    list-style: none;
-    display: flex;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 20px;
-    gap: 50px;
-}
-
 /* Tarjeta de usuario */
 .user-card {
     width: auto;
@@ -126,99 +72,6 @@ button {
     z-index: 1; 
 }
 
-/* Otra tarjeta */
-
-.other-card {
-    width: auto;
-    height: auto;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    display: flex;
-    position: relative;
-    margin: 20px;
-}
-
-.other-foto {
-    width: 50px;
-    height: 50px;
-    border: #b4ffca 2px solid;
-    border-radius: 20%;
-    margin-right: 20px;
-}
-
-.check-button {
-    background-color: #ffb4b400;
-    border: none;
-    padding: 0px;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-}
-
-.check {
-    width: 35px;
-    height: 35px;
-    border-radius: 20%;
-    margin-left: 20px;
-}
-
-.not-check-button {
-    background-color: #ffb4b400;
-    border: none;
-    padding: 0px;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-}
-
-.not-check {
-    width: 35px;
-    height: 35px;
-    border-radius: 20%;
-    margin-left: 20px;
-}
-
-.profile {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Última tarjeta */
-
-.final-card {
-    width: auto;
-    height: auto;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    display: flex;
-    position: relative;
-    margin: 20px;
-}
-
-.final-foto {
-    width: 50px;
-    height: 50px;
-    border: #2a2a2a 1px solid;
-    border-radius: 100%;
-    margin-right: 20px;
-}
-
-.profile{
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.profile {
-    display: flex;
-    justify-content: start;
-}
-
 /* Contenedor */
 .container {
     display: flex;
@@ -231,18 +84,4 @@ button {
 .user-card, .other-card {
     flex: 2;
     max-width: 600px;
-}
-
-/* Columnas */
-
-.left-column {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.right-column {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
 }
